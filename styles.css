@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(to bottom right, #a2d2ff, #76c893);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #76c893;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #76c893;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #76c893;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://i.imgur.com/8UjopnD.gif");
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gift-img-fit:hover {
+    background-image: url("https://media1.giphy.com/media/J3w2IKj3tjWmI/giphy.webp?cid=ecf05e47t7ub4zlgxr33owxo9v41vvj5ffcgfm816ozr1tei&rid=giphy.webp&ct=g");
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gift-img-optimist:hover {
+    background-image: url("https://media3.giphy.com/media/l3q2A6Jn9uo2262pW/giphy.webp?cid=ecf05e47mclc72jnsjp3u3klle2bricsjltagluhby02031v&rid=giphy.webp&ct=g");
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+#gift-img-relentless:hover {
+    background-image: url("https://media2.giphy.com/media/l3q2A93zxqHnFDkuQ/200w.webp?cid=ecf05e47tz6xd48xngl05m8or4kpyliulu5k9vwmbr13owzo&rid=200w.webp&ct=g");
+    
+    
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
